@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+
+<!-- this one has been abandoned for demo2 -->
+
+
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+* {
+  box-sizing: border-box;
+  border: 2px solid blue;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.maindiv {
+  display: flex;
+  flex-direction: column;
+  padding: 0 px;
+  width:1400px;
+  height:400px;
+  border-bottom: 6px solid orange;
+  border-right: 6px solid orange;
+  border-top: 3px solid orange;
+  border-left: 3px solid orange;
+  flex-wrap: nowrap;
+}
+
+.toprow {
+  display: flex;
+  height: 20px;
+  width: 100%;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.lilmenu {
+  display: flex;
+  height: 100%;
+  width: 40px;
+}
+
+.mainrow {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+
+.photo {
+  display: flex;
+  flex-grow: 2;
+  justify-content: center;
+  align-items: center;
+}
+
+.centerbit {
+  display: flex;
+  flex-grow: 3;
+  justify-content: left;
+  height: 100%
+}
+
+.endbit {
+  display: flex;
+  flex-grow: 1;
+  height:100%
+}
+img {
+  border-radius: 50%
+}
+
+    </style>
+</head>
+<body>
+    <div class="maindiv">
+        <div class="toprow"> 
+           <div class="lilmenu">OOO</div>
+        </div>
+        <div class="mainrow">
+          <div class="photo">
+            <img src="https://venturebeat.com/wp-content/uploads/2010/08/lady-gaga-lolcat.jpg?resize=350%2C350&strip=all"
+          </div>
+          <div class="centerbit">another bit of stuff with text probably</div>
+          <div class="endbit"> grey border and stuff on the far right</div>
+        </div>
+     </div>
+     </div>
+
+     <h2>at this point i abandoned my original column layout in favor of a master row layout</h2>
+     <a href="demo2.html">click here</a>
+</body>
+</html>
